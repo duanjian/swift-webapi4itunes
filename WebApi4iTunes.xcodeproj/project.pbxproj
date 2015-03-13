@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFFBADCD1AB3063800BEBBD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBADCC1AB3063800BEBBD4 /* AppDelegate.swift */; };
+		EFFBADCF1AB3063800BEBBD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBADCE1AB3063800BEBBD4 /* ViewController.swift */; };
+		EFFBADD21AB3063900BEBBD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFFBADD01AB3063900BEBBD4 /* Main.storyboard */; };
+		EFFBADD41AB3063900BEBBD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFFBADD31AB3063900BEBBD4 /* Images.xcassets */; };
+		EFFBADD71AB3063900BEBBD4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFFBADD51AB3063900BEBBD4 /* LaunchScreen.xib */; };
+		EFFBADE31AB3063900BEBBD4 /* WebApi4iTunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFBADE21AB3063900BEBBD4 /* WebApi4iTunesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFFBADDD1AB3063900BEBBD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFFBADBF1AB3063800BEBBD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFFBADC61AB3063800BEBBD4;
+			remoteInfo = WebApi4iTunes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFFBADC71AB3063800BEBBD4 /* WebApi4iTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebApi4iTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFBADCB1AB3063800BEBBD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFFBADCC1AB3063800BEBBD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFFBADCE1AB3063800BEBBD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFFBADD11AB3063900BEBBD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFFBADD31AB3063900BEBBD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFFBADD61AB3063900BEBBD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EFFBADDC1AB3063900BEBBD4 /* WebApi4iTunesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebApi4iTunesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFBADE11AB3063900BEBBD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFFBADE21AB3063900BEBBD4 /* WebApi4iTunesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebApi4iTunesTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFFBADC41AB3063800BEBBD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFBADD91AB3063900BEBBD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFFBADBE1AB3063800BEBBD4 = {
+			isa = PBXGroup;
+			children = (
+				EFFBADC91AB3063800BEBBD4 /* WebApi4iTunes */,
+				EFFBADDF1AB3063900BEBBD4 /* WebApi4iTunesTests */,
+				EFFBADC81AB3063800BEBBD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFFBADC81AB3063800BEBBD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFFBADC71AB3063800BEBBD4 /* WebApi4iTunes.app */,
+				EFFBADDC1AB3063900BEBBD4 /* WebApi4iTunesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFFBADC91AB3063800BEBBD4 /* WebApi4iTunes */ = {
+			isa = PBXGroup;
+			children = (
+				EFFBADCC1AB3063800BEBBD4 /* AppDelegate.swift */,
+				EFFBADCE1AB3063800BEBBD4 /* ViewController.swift */,
+				EFFBADD01AB3063900BEBBD4 /* Main.storyboard */,
+				EFFBADD31AB3063900BEBBD4 /* Images.xcassets */,
+				EFFBADD51AB3063900BEBBD4 /* LaunchScreen.xib */,
+				EFFBADCA1AB3063800BEBBD4 /* Supporting Files */,
+			);
+			path = WebApi4iTunes;
+			sourceTree = "<group>";
+		};
+		EFFBADCA1AB3063800BEBBD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFFBADCB1AB3063800BEBBD4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFFBADDF1AB3063900BEBBD4 /* WebApi4iTunesTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFFBADE21AB3063900BEBBD4 /* WebApi4iTunesTests.swift */,
+				EFFBADE01AB3063900BEBBD4 /* Supporting Files */,
+			);
+			path = WebApi4iTunesTests;
+			sourceTree = "<group>";
+		};
+		EFFBADE01AB3063900BEBBD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFFBADE11AB3063900BEBBD4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFFBADC61AB3063800BEBBD4 /* WebApi4iTunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFFBADE61AB3063900BEBBD4 /* Build configuration list for PBXNativeTarget "WebApi4iTunes" */;
+			buildPhases = (
+				EFFBADC31AB3063800BEBBD4 /* Sources */,
+				EFFBADC41AB3063800BEBBD4 /* Frameworks */,
+				EFFBADC51AB3063800BEBBD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebApi4iTunes;
+			productName = WebApi4iTunes;
+			productReference = EFFBADC71AB3063800BEBBD4 /* WebApi4iTunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFFBADDB1AB3063900BEBBD4 /* WebApi4iTunesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFFBADE91AB3063900BEBBD4 /* Build configuration list for PBXNativeTarget "WebApi4iTunesTests" */;
+			buildPhases = (
+				EFFBADD81AB3063900BEBBD4 /* Sources */,
+				EFFBADD91AB3063900BEBBD4 /* Frameworks */,
+				EFFBADDA1AB3063900BEBBD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFFBADDE1AB3063900BEBBD4 /* PBXTargetDependency */,
+			);
+			name = WebApi4iTunesTests;
+			productName = WebApi4iTunesTests;
+			productReference = EFFBADDC1AB3063900BEBBD4 /* WebApi4iTunesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFFBADBF1AB3063800BEBBD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "duan jian";
+				TargetAttributes = {
+					EFFBADC61AB3063800BEBBD4 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EFFBADDB1AB3063900BEBBD4 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EFFBADC61AB3063800BEBBD4;
+					};
+				};
+			};
+			buildConfigurationList = EFFBADC21AB3063800BEBBD4 /* Build configuration list for PBXProject "WebApi4iTunes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFFBADBE1AB3063800BEBBD4;
+			productRefGroup = EFFBADC81AB3063800BEBBD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFFBADC61AB3063800BEBBD4 /* WebApi4iTunes */,
+				EFFBADDB1AB3063900BEBBD4 /* WebApi4iTunesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFFBADC51AB3063800BEBBD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFBADD21AB3063900BEBBD4 /* Main.storyboard in Resources */,
+				EFFBADD71AB3063900BEBBD4 /* LaunchScreen.xib in Resources */,
+				EFFBADD41AB3063900BEBBD4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFBADDA1AB3063900BEBBD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFFBADC31AB3063800BEBBD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFBADCF1AB3063800BEBBD4 /* ViewController.swift in Sources */,
+				EFFBADCD1AB3063800BEBBD4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFBADD81AB3063900BEBBD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFBADE31AB3063900BEBBD4 /* WebApi4iTunesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFFBADDE1AB3063900BEBBD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFFBADC61AB3063800BEBBD4 /* WebApi4iTunes */;
+			targetProxy = EFFBADDD1AB3063900BEBBD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFFBADD01AB3063900BEBBD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFFBADD11AB3063900BEBBD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFFBADD51AB3063900BEBBD4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFFBADD61AB3063900BEBBD4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFFBADE41AB3063900BEBBD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFFBADE51AB3063900BEBBD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFFBADE71AB3063900BEBBD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WebApi4iTunes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFFBADE81AB3063900BEBBD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WebApi4iTunes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFFBADEA1AB3063900BEBBD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WebApi4iTunesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebApi4iTunes.app/WebApi4iTunes";
+			};
+			name = Debug;
+		};
+		EFFBADEB1AB3063900BEBBD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WebApi4iTunesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebApi4iTunes.app/WebApi4iTunes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFFBADC21AB3063800BEBBD4 /* Build configuration list for PBXProject "WebApi4iTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFBADE41AB3063900BEBBD4 /* Debug */,
+				EFFBADE51AB3063900BEBBD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFFBADE61AB3063900BEBBD4 /* Build configuration list for PBXNativeTarget "WebApi4iTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFBADE71AB3063900BEBBD4 /* Debug */,
+				EFFBADE81AB3063900BEBBD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFFBADE91AB3063900BEBBD4 /* Build configuration list for PBXNativeTarget "WebApi4iTunesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFBADEA1AB3063900BEBBD4 /* Debug */,
+				EFFBADEB1AB3063900BEBBD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFFBADBF1AB3063800BEBBD4 /* Project object */;
+}
